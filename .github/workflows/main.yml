@@ -3,7 +3,7 @@ name: Deploy Production
 on:
   push:
     branches: [ main ]
-
+    
 jobs:
   php-tests:
     name: 🟣 PHP Test
